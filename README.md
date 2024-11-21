@@ -110,3 +110,22 @@ To ensure the correct working of the system, the following assumptions were made
 - **Valid Product and Coupon IDs**: It is assumed that the product and coupon IDs provided when adding products to the cart or applying coupons are valid and exist in the database.
 
 ---
+## Installation and Run
+
+Clone this repository in your local system
+
+```bash
+  git clone https://github.com/Nikhilraj081/Shopping-Service.git
+```
+Note: The application uses MongoDB Atlas, a cloud-based database solution, eliminating the need for local database setup.
+
+Then open terminal and go to project directory and run below command to start project:
+
+```bash
+  mvn clean spring-boot:run
+```
+Once server is started paste below swagger-ui link to your browser  
+```bash
+  http://localhost:8082/shopping-service/swagger-ui/index.html
+```
+It will open swagger ui interface where you can test the all endpoints.
